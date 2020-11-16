@@ -1,1 +1,1 @@
-class ProductsSchema {}
+export class ProductsSchema {}
