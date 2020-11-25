@@ -13,7 +13,7 @@ import { ConfigModule } from "@nestjs/config";
       {useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology:true}
       ),
     ],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [AppController, ],
+  providers: [AppService, ],
 })
 export class AppModule {}
